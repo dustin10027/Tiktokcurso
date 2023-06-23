@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:vistas="clr-namespace:Tiktokcurso.Vistas.Reproductor"
+             x:Class="Tiktokcurso.Vistas.Reproductor.panelderecha">
+    <StackLayout 
+                                 VerticalOptions="End"
+                                 WidthRequest="80"
+                                 Spacing="30"
+                                 Margin="0,0,5,18">
+        <Grid>
+            <Frame WidthRequest="60"
+                               HeightRequest="60"
+                               Padding="0"
+                               CornerRadius="30"
+                               HorizontalOptions="End">
+                <Image Source="https://i.ytimg.com/vi/NbJnG2ERSD0/maxresdefault.jpg" Aspect="AspectFill"/>
+            </Frame>
+            <Grid HorizontalOptions="Center"
+                                  VerticalOptions="End"
+                                  TranslationY="10">
+                <Button 
+                                    HorizontalOptions="Center"
+                                    VerticalOptions="Center"
+                                    HeightRequest="30"
+                                    WidthRequest="30"
+                                    CornerRadius="15"
+                                    BackgroundColor="#FE2C55"/>
+                <Label Text="+"
+                                       VerticalOptions="Center"
+                                       FontSize="22"
+                                       HorizontalOptions="Center"
+                                       TextColor="White"
+                                       FontAttributes="Bold"/>
+            </Grid>
+
+        </Grid>
+        <StackLayout>
+            <Image Source="https://i.ibb.co/mtgwBRx/me-gusta.png"
+                                   HeightRequest="35"/>
+            <Label Text="1.2M"
+                                   TextColor="White"
+                                   HorizontalOptions="Center"
+                                   FontAttributes="Bold"
+                                   FontSize="16"/>
+        </StackLayout>
+        <StackLayout>
+            <Image Source="https://i.ibb.co/n7JTSB5/chat-de-burbujas.png"
+                                   HeightRequest="35"/>
+            <Label Text="8.1k"
+                                   TextColor="White"
+                                   HorizontalOptions="Center"
+                                   FontAttributes="Bold"
+                                   FontSize="16"/>
+        </StackLayout>
+        <StackLayout>
+            <Image Source="https://i.ibb.co/Xt66YnN/compartir-1.png"
+                                   HeightRequest="35"/>
+            <Label Text="8.1k"
+                                   TextColor="White"
+                                   HorizontalOptions="Center"
+                                   FontAttributes="Bold"
+                                   FontSize="16"/>
+        </StackLayout>
+        <vistas:discogiratorio />
+    </StackLayout>
+</ContentView>

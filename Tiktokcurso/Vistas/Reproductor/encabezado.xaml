@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tiktokcurso.Vistas.Reproductor.encabezado">
+    <StackLayout Orientation="Horizontal"
+                 Margin="20,35"   
+                    HeightRequest="40" >
+        <Image Source="https://i.ibb.co/SP5j8kk/live.png"/>
+        <StackLayout Orientation="Horizontal"
+                         HorizontalOptions="CenterAndExpand">
+            <Label Text="Siguiendo"
+                       TextColor="#9A9A9A"
+                       VerticalOptions="Center"
+                       FontSize="23"
+                       FontAttributes="Bold"/>
+            <BoxView HeightRequest="10"
+                         WidthRequest="10"
+                         BackgroundColor="Red"
+                         CornerRadius="5"
+                         VerticalOptions="Start"
+                         TranslationX="-5"/>
+            <Label Text="Para ti"
+                       TextColor="White"
+                       VerticalOptions="Center"
+                       FontSize="23"
+                       FontAttributes="Bold"/>
+
+        </StackLayout>
+        <Image Source="https://i.ibb.co/2FRXbgx/buscar.png"
+                       VerticalOptions="Center"/>
+
+    </StackLayout>
+</ContentView>
